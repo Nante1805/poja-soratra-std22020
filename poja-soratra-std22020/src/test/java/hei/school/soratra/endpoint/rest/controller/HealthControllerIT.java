@@ -18,7 +18,7 @@ class HealthControllerIT extends FacadeIT {
 
   @Test
   void ping() {
-    assertEquals("pong", pingController.ping());
+    assertEquals("pong", pingController.ping())
   }
 
   @Test
